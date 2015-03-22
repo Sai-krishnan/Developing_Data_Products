@@ -10,7 +10,7 @@ shinyUI(pageWithSidebar(
                             choices=c("4", "6", "8")),
                 sliderInput("hp", "HorsePower:",
                             min=52.0, max=335.0, step=0.5, value=123.0),
-                sliderInput("wt", "Weight (Tonnes):",
+                sliderInput("wt", "Weight (lb/1000):",
                             min=1.5, max=5.4, step=0.1, value=3.3),
                 submitButton('Submit'),
                 hr(),
